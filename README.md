@@ -17,3 +17,9 @@ Run the `startup.sh` file in the root directory to;
 - Build the frontend using Yarn
 - Run PHPUnit tests
 - Serve the application using the Symfony Server.
+
+## Setup
+
+You can find API documentation, once the server is up by adding `api/doc` to the base url.
+
+ - e.g https://127.0.0.1:8000/api/doc
