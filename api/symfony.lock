@@ -48,6 +48,18 @@
             "config/routes/nelmio_api_doc.yaml"
         ]
     },
+    "nelmio/cors-bundle": {
+        "version": "1.5",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "1.5",
+            "ref": "6e1f64cc0f55362be49764634e8f14ce34a033c6"
+        },
+        "files": [
+            "config/packages/nelmio_cors.yaml"
+        ]
+    },
     "nikic/php-parser": {
         "version": "v4.2.4"
     },
@@ -80,6 +92,9 @@
         "files": [
             "config/packages/sensio_framework_extra.yaml"
         ]
+    },
+    "symfony/asset": {
+        "version": "v4.3.4"
     },
     "symfony/browser-kit": {
         "version": "v4.3.4"
@@ -243,6 +258,26 @@
     "symfony/service-contracts": {
         "version": "v1.1.6"
     },
+    "symfony/translation-contracts": {
+        "version": "v1.1.6"
+    },
+    "symfony/twig-bridge": {
+        "version": "v4.3.4"
+    },
+    "symfony/twig-bundle": {
+        "version": "3.3",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "3.3",
+            "ref": "369b5b29dc52b2c190002825ae7ec24ab6f962dd"
+        },
+        "files": [
+            "config/packages/twig.yaml",
+            "config/routes/dev/twig.yaml",
+            "templates/base.html.twig"
+        ]
+    },
     "symfony/var-dumper": {
         "version": "v4.3.4"
     },
@@ -251,6 +286,9 @@
     },
     "symfony/yaml": {
         "version": "v4.3.4"
+    },
+    "twig/twig": {
+        "version": "v2.11.3"
     },
     "webmozart/assert": {
         "version": "1.5.0"
