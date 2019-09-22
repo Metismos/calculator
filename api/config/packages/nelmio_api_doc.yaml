@@ -1,0 +1,37 @@
+nelmio_api_doc:
+    areas: # to filter documented areas
+        path_patterns:
+            - ^/api(?!(/doc|/doc.json)$) # Accepts routes under /api except /api/doc
+    documentation:
+        schemes: [http,https]
+        info:
+            title: Calculator
+            description: An application to calculate two operands using a given operator.
+            version: 1.0.0
+        parameters:
+            firstOperand:
+                name: firstOperand
+                required: true
+                in: query
+                type: float
+                description: First operand for calculation.
+            secondOperand:
+                name: secondOperand
+                required: true
+                in: query
+                type: float
+                description: Second operand for calculation.
+            operationType:
+                name: operationType
+                required: true
+                in: query
+                type: string
+                enum:
+                    - Addition
+                    - Subtraction
+                    - Multiplication
+                    - Division
+                    - BitwiseAnd
+                    - BitwiseOr
+                description: Operation for calculation.
+
