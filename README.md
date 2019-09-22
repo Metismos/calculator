@@ -4,8 +4,8 @@ A calculator that enables one-time calculation of two numbers using various oper
 
 ## Dependencies
 
-[Yarn](https://yarnpkg.com/lang/en/docs/install/#mac-stable)
-[Symfony Server](https://symfony.com/doc/current/setup/symfony_server.html)
+ - [Yarn](https://yarnpkg.com/lang/en/docs/install/#mac-stable)
+ - [Symfony Server](https://symfony.com/doc/current/setup/symfony_server.html)
 
 ## Setup
 
