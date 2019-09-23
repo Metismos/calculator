@@ -2,6 +2,8 @@
 
 A calculator that enables one-time calculation of two numbers using various operands. Operands include, addition, subtraction, division, multiplication, bitwise and, bitwise or.
 
+Credit to - https://vuejsexamples.com/a-awesome-calculator-built-with-vue-js/ - for providing the look and feel of the calculator.
+
 ## Dependencies
 
  - [Yarn](https://yarnpkg.com/lang/en/docs/install/#mac-stable)
